@@ -4,10 +4,10 @@
 </head>
 <body>
   <script type="text/javascript">
-    var svg = dimple.newSvg("body", 500, 300);
+    var svg = dimple.newSvg("body", 500000, 30000);
     var data = [
-      { "Word":"Hello", "Awesomeness":1000 },
-      { "Word":"World", "Awesomeness":7000 }
+      { "Word":"Hello", "Awesomeness":100000000 },
+      { "Word":"World", "Awesomeness":7000000 }
     ];
     var chart = new dimple.chart(svg, data);
     chart.noFormats = true;
